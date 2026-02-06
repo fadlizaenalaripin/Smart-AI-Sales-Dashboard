@@ -1,0 +1,20 @@
+# Dependencies
+node_modules/
+.next/
+out/
+build/
+dist/
+
+# Python cache & virtualenv
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+.env
+
+# Project specific
+data_files/*.csv
+!data_files/business_data.csv
+.DS_Store
+*.log
